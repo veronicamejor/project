@@ -1,0 +1,140 @@
+body{
+  background: radial-gradient(white,violet);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin: 20px;
+}
+a{
+  text-decoration: none;
+  color: blueviolet;
+}
+p{
+  color: blueviolet;
+}
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+/* Styles for the container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the form */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: violet;
+  }
+  
+  /* Styles for the heading */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+.footer{
+  background: black;
+  color:violet;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p{
+  color: violet;
+}
+.footer h3{
+  color: white;
+  margin-bottom: 20px;
+}
+.footer col1, .footer col2, .footer col3{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer col1{
+  flex-basis: 30%;
+}
+.footer col2, .footer col3{
+  flex-basis: 12%;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top: 20px;
+}
+.app-logo img{
+  width: 140px;
+}
+.footer hr{
+  border: none;
+  background: white;
+  height: 1px;
+  margin: 20px 0;
+}
+.Copyright{
+  text-align: center;
+}
